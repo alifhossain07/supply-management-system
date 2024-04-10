@@ -7,8 +7,8 @@
 <script src="https://cdn.tailwindcss.com"></script>
     <title>Footer</title>
 </head>
-<body class="bg-sky-500 p-2 rounded-full">
-<footer>
+<body >
+<footer class="bg-sky-500 p-2 rounded-full w-11/12 mx-auto">
     <!-- main container -->
     <div class="flex justify-around mt-10 items-center">
 
@@ -32,7 +32,7 @@
     </div>
 
     <aside>
-    <p class="text-center mt-5 font-bold text-lg">Copyright © 2024 - All right reserved by Maliha Anjum</p>
+    <p class="text-center mt-5 font-bold text-sm">Copyright © 2024 - All right reserved by Maliha Anjum</p>
   </aside>
 </footer>
 

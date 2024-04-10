@@ -7,10 +7,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>header</title>
 </head>
-<body class="w-11/12 mx-auto bg-sky-100">
+<body class="w-11/12 mx-auto">
     
-<header>
-<div class="navbar bg-sky-100">
+<header class="w-11/12 mx-auto bg-blue-300 rounded-3xl p-3 mt-5 ">
+<div class="navbar">
   <div class="flex-1 flex items-center  gap-5">
     <div>
     <img src="logo.jpg" alt=""class="w-32 mt-3">

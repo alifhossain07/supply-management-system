@@ -12,7 +12,7 @@
      
  ?>
 
-<main>
+<main class="mb-40 mt-20">
         <div class="flex items-center justify-center mt-10 space-x-20">
                 <div>
                 <h1 class="text-5xl mt-10 font-bold mb-10">Welcome to the <br><span class="text-red-500">Travel agency </span>for product</h1>
@@ -30,12 +30,11 @@
 
 
 
-
-<!-- <?php
+ <?php
      
         include_once ('footer.php');
      
- ?> -->
+ ?>
 
 </body>
 </html>
