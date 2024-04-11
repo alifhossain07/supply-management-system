@@ -16,15 +16,27 @@
 <main>
 
 <!-- Main Container -->
-<div class="w-3/4 mx-auto">
+<div class="w-3/4 mx-auto mt-16 mb-16 flex justify-around items-center">
  <div>
-    <h1>Welcome Back!</h1>
-    <h1>Enter Your Information Here For <span>Login</span></h1>
- 
+    <h1 class="text-5xl font-bold mb-5">Welcome Back!</h1>
+    <h1 class="text-3xl font-semibold">Enter Your Information Here <br>For <span class="text-blue-700">Login</span></h1> 
  </div>
- <div>
+ <div class="flex flex-col">
+  <form action="conncomplog.php" method="POST" class="mb-4">
+    <label for="name">Company Name:</label>
+    <input type="text" placeholder="Type here" class="input input-bordered input-info w-full max-w-xs mt-3 " />
+  </form>
+  <form action="conncomplog.php" method="POST" class="mb-4">
+    <label for="email">Company Email:</label>
+    <input type="email" placeholder="Type here" class="input input-bordered input-info w-full max-w-xs mt-3" />
+  </form>
+  <form action="conncomplog.php" method="POST" class="mb-4">
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Type here" class="input input-bordered input-info w-full max-w-xs mt-3" />
+  </form>
+  <input type="submit" value="Submit" class="btn btn-primary">
+</div>
 
- </div>
 
 
 
