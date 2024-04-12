@@ -1,43 +1,61 @@
 <!DOCTYPE html>
-<html>
-<head> 
-<title> Page 5 </title>
-<link rel="stylesheet" href="header.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>company</title>
 </head>
-<body>
-
+<body class="bg-sky-100">
 <?php
      
-        include_once ('header.php');
-     
-        ?>
+     include_once ('header.php');
+  
+     ?>
+<main>
+  <!-- main container -->
+<div class="w-3/4 mx-auto mt-16 mb-16 flex justify-around items-center">
+<div>
+  <img src="companyimg.png" alt="" class="">
+</div>
+<div>
+  <h1 class="text-3xl mb-4 font-semibold">Company <span class="text-blue-700">Information</span> </h1>
+<form action="connectcomin.php" method="POST" class="flex flex-col ">
+  <label for="Name" class="mb-2">Name:</label>
+  <input type="text" id="Name" name="Name" class="input input-bordered input-info w-full max-w-lg mt-1 h-10" />
 
-<center>
+  <label for="Brunch" class="mb-2 mt-4">Branch:</label>
+  <input type="text" id="Brunch" name="Brunch" class="input input-bordered input-info w-full max-w-lg mt-1 h-10" />
 
-<h2>Company information</h2>
+  <label for="OrderID" class="mb-2 mt-4">OrderID:</label>
+  <input type="number" id="OrderID" name="OrderID" class="input input-bordered input-info w-full max-w-lg mt-1 h-10" />
 
-<form action="connectcomin.php" method="POST">
+  <label for="Quantity" class="mb-2 mt-4">Quantity:</label>
+  <input type="number" id="Quantity" name="Quantity" class="input input-bordered input-info w-full max-w-lg mt-1 h-10" />
 
-  <label for="Name"> Name:</label>
-  <input type="text" id="Name" name="Name" value=""><br>
-<label for="Brunch"> Brunch:</label>
-  <input type="text" id="Brunch" name="Brunch" value=""><br>
-<label for="OrderID"> OrderID:</label>
-  <input type="digit" id="OrderID" name="OrderID" value=""><br>
-<label for="Quantity"> Quantity:</label>
-  <input type="digit" id="Quantity" name="Quantity" value=""><br>
-  <label for="PreviousSells"> PreviousSells:</label>
-  <input type="digit" id="PreviousSells" name="PreviousSells" value=""><br>
+  <label for="PreviousSells" class="mb-2 mt-4">PreviousSells:</label>
+  <input type="number" id="PreviousSells" name="PreviousSells" class="input input-bordered input-info w-full max-w-lg mt-1 h-10" />
 
-  <input type="submit" value="Submit">
-</form> 
+  <input type="submit" value="Submit" class="btn btn-primary mt-6">
+</form>
 
-</center>
+
+</div>
+
+
+
+</div>
+</main>
+
+
+
 <?php
-     
-        include_once ('footer.php');
-     
-        ?>
-
+  
+     include_once ('footer.php');
+  
+     ?>
 </body>
 </html>
+
+
