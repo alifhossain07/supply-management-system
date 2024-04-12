@@ -84,66 +84,65 @@ footer {
 <style>
     .welcome-container 
     {
-   background-image: url('images/1.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+   background-image: url('dashbg.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
         background-size: cover; /* This ensures that the background image covers the entire container */
         background-position: center; /* This centers the background image within the container */
     }
 </style>
 
 </head>
-<body class="w-3/4 mx-auto">
+<body class=" mx-auto">
     <div class="mx-auto p-10 space-y-7 welcome-container bg-sky-300 flex items-center justify-center">
-        <div class="space-y-7 gap-10">
-        <h1 class="text-5xl font-bold">Welcome to <br> <span class="text-pink-600">Supplier Management System<span> </h1>
-        <a href="logIn.php" class="inline-block px-6 py-3 mt-4 font-bold bg-yellow-500 text-black rounded hover:bg-blue-600">Login</a>
+        <div class="space-y-7 ml-20">
+        <h1 class="text-5xl font-bold ">Welcome to <br> <span class="text-blue-600">Supplier Management System<span> </h1>
+        <a href="logIn.php" class="inline-block px-6 py-3 mt-4 font-bold bg-blue-500 text-white rounded hover:bg-blue-600">Login</a>
         </div>
         <div>
-        <img src="images/logo1.png" alt="Banner Image"><br><br>
+        <img src="banner.png" alt="Banner Image"><br><br>
         </div>
     </div>
 
-    <footer class="h-[600px]" >
-        <div class="flex justify-center mx-auto items-center mt-20">
-            <h1 class="text-4xl font-bold text-black">Services</h1>
+    <footer class="h-[400px]" >
+    <div class="flex mx-auto justify-center gap-40 items-center">
+    <div class="flex flex-col justify-center items-center ">
+        <h1 class="text-4xl font-bold text-black">Services</h1>
+        <div class="mx-auto mt-10 space-x-10"> 
+            <div class="flex flex-col space-y-6">
+                <div class="flex flex-row gap-20">
+                    <button class="bg-blue-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded mr-2">
+                        <a href="dash.php">Home</a>
+                    </button>
+
+                    <button class="bg-sky-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-2">
+                        <a href="register.php">Register</a>
+                    </button>
+                </div>
+
+                <div class="flex flex-row gap-20">
+                    <button class="bg-blue-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded mr-2">
+                        <a href="logIn.php">Log In</a>
+                    </button>
+
+                    <button class="bg-sky-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-2">
+                        <a href="company.php">Company</a>
+                    </button>
+                </div>
+            </div>  
         </div>
-    
-    <div class="flex mx-auto justify-center mt-10 items-center">
-
-    <div>
-        <img src="images/2.png" alt="" class="w-[400px]">
     </div>
-    
-    <div class="mx-auto  mt-10 space-x-10"> 
-    
-    <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-2">
-    <a href="dash.php">Home</a>
-    </button>
 
-    <button class="bg-sky-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mr-2">
-        <a href="register.php">Register</a>
-    </button>
-
-    <button class="bg-blue-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mr-2">
-        <a href="logIn.php">Log In</a>
-    </button>
-
-    <button class="bg-sky-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mr-2">
-        <a href="company.php">Company</a>
-    </button></div>
-    
-    <div>
-        <img src="images/3.png" alt="" class="w-[400px]">
+    <div class="mt-10">
+        <img src="services.png" alt="asd" class="w-[400px]">
     </div>
+</div>
 
    
 
-    </div>
-
 
    
-    <div class="copyright mt-10">
+    <!-- <div class="copyright mt-10">
        Copyright &copy; 2024
-    </div>
+    </div> -->
     
 </footer>
 </body>
