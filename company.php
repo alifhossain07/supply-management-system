@@ -34,7 +34,7 @@
   <label for="Quantity" class="mb-2 mt-4">Quantity:</label>
   <input type="number" id="Quantity" name="Quantity" class="input input-bordered input-info w-full max-w-lg mt-1 h-10" />
 
-  <label for="PreviousSells" class="mb-2 mt-4">PreviousSells:</label>
+  <label for="PreviousSells" class="mb-2 mt-4">Previous Sells:</label>
   <input type="number" id="PreviousSells" name="PreviousSells" class="input input-bordered input-info w-full max-w-lg mt-1 h-10" />
 
   <input type="submit" value="Submit" class="btn btn-primary mt-6">
@@ -42,14 +42,8 @@
 
 
 </div>
-
-
-
 </div>
 </main>
-
-
-
 <?php
   
      include_once ('footer.php');

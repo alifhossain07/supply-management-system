@@ -32,7 +32,7 @@
     </div>
 
     <aside>
-    <p class="text-center mt-5 font-bold text-sm">Copyright © 2024 - All right reserved by Maliha Anjum</p>
+    <p class="text-center mt-5 font-semibold text-sm">Copyright © 2024 - All right reserved by Maliha Anjum</p>
   </aside>
 </footer>
 

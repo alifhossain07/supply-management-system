@@ -22,17 +22,17 @@
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 font-semibold text-[16px] ">
-    <li><a href="dash.php" >Dashboard</a></li>
-            <li><a href="login.php">Login</a></li>
-            <li><a href="register.php">Registration</a></li>
-            <li><a href="company.php">Comapny</a></li>
-            <li><a href="product.php">Product</a></li>
-            <li class="submenu">
+    <li class="hover:bg-yellow-300 rounded-xl "><a href="dash.php" >Dashboard</a></li>
+            <li class="hover:bg-yellow-300 rounded-xl "><a href="login.php">Login</a></li>
+            <li class="hover:bg-yellow-300 rounded-xl "><a href="register.php">Registration</a></li>
+            <li class="hover:bg-yellow-300 rounded-xl "><a href="company.php">Comapny</a></li>
+            <li class="hover:bg-yellow-300 rounded-xl "><a href="product.php">Product</a></li>
+            <li class="hover:bg-yellow-300 rounded-xl ">
                 <a href="search.php">Company Details</a>
                
             </li>
-            <li><a href="report.php">Report</a></li>
-            <li class="logout"><a href="logIn.php">Logout</a></li>
+            <li class="hover:bg-yellow-300 rounded-xl"><a href="report.php">Report</a></li>
+            <li class="hover:bg-yellow-300 rounded-xl "><a href="logIn.php">Logout</a></li>
     </ul>
   </div>
 </div>
