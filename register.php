@@ -4,7 +4,7 @@
 <title> Page 3 </title>
 <link rel="stylesheet" href="header.css">
 </head>
-<body>
+<body class="bg-sky-100">
 <?php
      
      include_once ('header.php');

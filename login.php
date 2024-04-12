@@ -7,7 +7,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
   <title>Login</title>
  </head>
- <body class="w-11/12 mx-auto">
+ <body class="w-11/12 mx-auto bg-sky-100">
  <?php
      
      include_once ('header.php');
